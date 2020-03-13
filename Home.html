@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li {
+				float: left;
+			}
+
+			li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover {
+				background-color: #111;
+			}
+
+			#footer {
+				position: absolute;
+				/* 必要 */
+				bottom: 0;
+				/* 必要 */
+				height: 50px
+			}
+		</style>
+	</head>
+	<body>
+		<table width="1000" border="0" style="margin: auto;">
+			<tr>
+				<td colspan="2">
+					<ul>
+						<li><a class="active" href="#home">主页</a></li>
+						<li><a href="#news">新闻</a></li>
+						<li><a href="#contact">联系</a></li>
+						<li><a href="#about">关于</a></li>
+					</ul>
+				</td>
+			</tr>
+
+			<tr>
+				<td style="background-color:#eeeeee;height:100%;width:400rpx;vertical-align:top;">
+					内容在这里</td>
+			</tr>
+			<tr>
+				<td id="footer" colspan="2" style="background-color:#FFA500;text-align:center;" width="1000rpx">
+					版权 © linlrp.iok.la</td>
+			</tr>
+		</table>
+	</body>
+</html>
